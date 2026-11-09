@@ -1,0 +1,10 @@
+{
+  "name": "Wool Overcoat",
+  "description": "Tailored wool overcoat, unlined, made in Ukraine.",
+  "imageUrl": "https://example.com/images/overcoat.jpg",
+  "brandName": "Example Fashion House",
+  "priceCurrency": "EUR",
+  "price": 420,
+  "availability": "InStock",
+  "url": "https://example.com/products/wool-overcoat"
+}

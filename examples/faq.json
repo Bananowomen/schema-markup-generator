@@ -1,0 +1,10 @@
+[
+  {
+    "question": "What is the difference between SEO and GEO?",
+    "answer": "SEO optimizes for ranking in traditional search results. GEO (Generative Engine Optimization) optimizes for being cited inside AI-generated answers, such as ChatGPT or Google's AI Overviews."
+  },
+  {
+    "question": "Does structured data help AI answers cite a page?",
+    "answer": "It does not guarantee a citation, but it gives AI systems a clearer, machine-readable signal of what the page is about, which makes correct citation more likely."
+  }
+]

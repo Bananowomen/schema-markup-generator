@@ -1,0 +1,23 @@
+{
+  "name": "schema-markup-generator",
+  "version": "0.1.0",
+  "description": "Generates valid schema.org JSON-LD (Article, Product, FAQPage, LocalBusiness, BreadcrumbList) with required-field validation, ready to paste into a page's <head>.",
+  "main": "dist/cli.js",
+  "bin": {
+    "schema-gen": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "keywords": ["seo", "geo", "aeo", "schema.org", "json-ld", "structured-data"],
+  "author": "Uliana Sierik",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/node": "^20.14.9"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
