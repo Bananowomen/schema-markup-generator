@@ -30,8 +30,22 @@ function main(): void {
     process.exit(1);
   }
 
-  const data = JSON.parse(readFileSync(filePath, 'utf-8'));
-  const schema = stripUndefined(build(data));
+  let data: unknown;
+  try {
+    data = JSON.parse(readFileSync(filePath, 'utf-8'));
+  } catch (err) {
+    console.error(err instanceof Error ? err.message : err);
+    process.exit(1);
+  }
+
+  let schema: object;
+  try {
+    schema = stripUndefined(build(data));
+  } catch (err) {
+    console.error(err instanceof Error ? err.message : err);
+    process.exit(1);
+  }
+
   const json = JSON.stringify(schema, null, 2);
 
   console.log(json);
